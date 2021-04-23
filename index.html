@@ -1,0 +1,85 @@
+<html>
+        <head>
+		        <title>Animation Property</title>
+				<link href="Css\Style.css" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+				
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		</head>
+		<body>
+            <header>
+                <nav>
+                    <div class="row clearfix" > 
+                        <img src="images/coffe1.png" alt="Cafe" class="logo">
+
+                        <ul class="main-nav animate__animated animate__bounce" id="check-class">
+                            <li><a href="#about_banner">CAKE DELIVERY</a></li>
+                            <li><a href="#">HOW TO ORDER</a></li>
+                            <li><a href="#">CHECK MORE</a></li>
+                            <li><a href="#">SIGN UP</a></li>
+                        </ul>
+                        <a href="#" class="mobile-icon" onclick="slidshow()" ><i class="fa fa-bars"></i></a>
+                    </div>
+                </nav>
+                <div class="main-content">
+                     <H1>WELCOME TO <span class="animation">S<sup>2</sup> PREPARATIONS</span>.<br>
+                        HOUSE OF CAKE LOVER OO YES</H1>
+                        <br>
+                    <a href="#" class="btn btn-full">Click to order</a>
+                    <a href="#" class="btn btn-nav">Show me more</a>
+                </div>
+            </header>
+			<!--ABout Banner Start--->
+				
+					<!--Banner start-->						
+							<div class="grid_12 section_banner" id="about_banner">
+								About banner
+							</div>
+							<div class="clear"> </div>			
+							<div class="grid_4">
+								<img src="images/cake1.jpg" alt="Logo">
+							</div>
+							<div class="grid_4">
+								<img src="images/cake2.jpg" alt="Logo">
+							</div>
+							<div class="grid_4">
+								<img src="images/cake3.jpg" alt="Logo"">
+							</div>
+							<div class="grid_4">
+								<img src="images/cake4.jpg" alt="Logo">
+							</div>
+							
+							<div class="grid_4">
+								<img src="images/cake5.jpg" alt="Logo">
+							</div>
+							<div class="grid_4">
+								<img src="images/cake6.jpg" alt="Logo">
+							</div>
+							<div class="grid_4">
+								<img src="images/cake7.jpg" alt="Logo">
+							</div>
+							<div class="grid_4">
+								<img src="images/cake5.jpg" alt="Logo">
+							</div>
+					<!--Banner end-->	
+					
+				<!--ABout Banner End--->
+			<script type="text/javascript">
+                function slidshow() {
+                    var x=document.getElementById('check-class')
+                       if(x.style.display=="none") {
+                        x.style.display="block"}
+                       else{
+                        x.style.display="none"
+                       }
+                }
+                    
+            
+            </script>
+		</body>
+		</html>
